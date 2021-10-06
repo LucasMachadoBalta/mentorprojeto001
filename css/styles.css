@@ -1,0 +1,77 @@
+html,
+
+body {
+    background-color: hsl(225, 100%, 98%);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.card {
+    width: 25rem;
+    
+    border-radius: 20px;
+}
+
+.main-card-img {
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-price {
+    background-color:hsl(225, 100%, 98%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.btn-change {
+    background-color: transparent;
+    border-color: transparent;
+    color: blueviolet;
+    
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-proceed {
+    border-radius: 10px;
+    color: ivory; 
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 5px;
+}
+
+.btn-cancel {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+p {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
